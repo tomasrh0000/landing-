@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* No funciona*/
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1,h2,h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; 
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* CODIGO SIN USAR DE HTML 
+  <h2>2. Avatar</h2>
+    <img class="avatar" src="images/profile.jpg" alt="Profile photo">
+
+    <h2>3. Button</h2>
+    <a href="#" class="btn-blue">Submit</a>
+
+
+CARDS CON BOTONES
+
+    <div class="card">
+      <img src="images/alguien.jpg" alt="fotox">
+      <h3>Le wagon cucuta</h3>
+      <a href="#" class="btn-blue">Apply to cucuta</a>
+    </div>
+
+    <div class="card">
+      <img src="images/card2.jpg" alt="fotox">
+      <h3>Le wagon 2</h3>
+      <a href="#" class="btn-blue">Apply to bogota</a>
+    </div>
+
+    <div class="card">
+      <img src="images/card3.jpg" alt="fotox">
+      <h3>Le wagon 3</h3>
+      <a href="#" class="btn-blue">Apply to medellin</a>
+    </div>
+*/
